@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-size: 0.9rem;
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+.background{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, #232526, #414345);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.main-container{
+  width: 60%;
+  min-height: 30rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  padding: 2rem;
+  font-size: 3.5rem;
+  font-family: sans-serif;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+#form{
+  width: 60%;
+  height: 4rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+#text{
+  width: 20rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+#submit{
+  margin: 0.5rem 0.2rem;
+  padding: 0.5rem 3rem;
+  border: none;
+  border-radius: 0.3rem;
+  background: #05e8ba;
+}
+#result{
+  min-height: 3rem;
+  margin: 1rem 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+  font-family: sans-serif;
+  text-align: center;
+  background: #333;
+  color: #FFF;
+}
+
+.result-input{
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+}
+.result-emotion{
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #05e8ba;
+}
