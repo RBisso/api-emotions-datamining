@@ -1,5 +1,9 @@
 import nltk
+import os
 from . import words_db
+
+#nltk.donwload('stopwords')
+nltk.data.path.append(os.path.join(os.getcwd(),'nltk_data/'))
 
 class Phrases():
 

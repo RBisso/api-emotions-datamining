@@ -204,6 +204,7 @@ basetreinamento = [
 ('o virulento debate ente poláticos','desgosto'),
 
 ('eu imploro, não me matem!','medo'),
+('fantasmas me dão medo', 'medo'),
 ('tem certeza que não e perigoso?','medo'),
 ('não tenho certeza se e seguro','medo'),
 ('tenho que correr pra não me pegarem','medo'),
