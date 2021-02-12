@@ -26,7 +26,10 @@ SECRET_KEY = '0=49&n%ut@s!76h)z12vat*%afqsyp#c4rbo!&&c+s0o8p@v#p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    'https://protected-earth-88770.herokuapp.com/'
+]
 
 
 # Application definition
