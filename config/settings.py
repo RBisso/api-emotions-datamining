@@ -27,8 +27,9 @@ SECRET_KEY = '0=49&n%ut@s!76h)z12vat*%afqsyp#c4rbo!&&c+s0o8p@v#p'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    'https://protected-earth-88770.herokuapp.com/'
+    'https://protected-earth-88770.herokuapp.com/',
+    'localhost'
+    
 ]
 
 
