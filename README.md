@@ -4,9 +4,9 @@
 ```shell
 # docker pull bissorm/api-emotions-datamining
 ```
-## how to execute the docker image
+## executing the docker image
 ```shell
-# docker run -p 8000:8000 <image_id> 
+# docker run -p 8000:8000 bissorm/api-emotions-datamining
 ```
 
 ## project structure
@@ -36,7 +36,8 @@ Contains the database for training and testing the data mining model.
 #### frontend/staticfiles/
 
 ### nltk_data/
-
+Folder that contains the nltk data for the training model. This was needed because nltk normally uses a UI for downloading the data, so a manual installation were needed.
 ### Procfile
 File used to build the [heroku app](https://protected-earth-88770.herokuapp.com/)
 ### Dockerfile
+File used to build the [docker image](https://hub.docker.com/r/bissorm/api-emotions-datamining)
